@@ -5,7 +5,7 @@
     "content_scripts": [
         {
             "matches": [
-                "https://ssb-prod.ec.aucegypt.edu/PROD/bwskfcls.P_GetCrse"
+               "https://ssb-prod.ec.aucegypt.edu/PROD/bwskfcls.P_GetCrse"
             ],
             "js": ["content.js"]
         }
