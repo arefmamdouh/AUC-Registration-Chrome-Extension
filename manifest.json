@@ -5,9 +5,14 @@
     "content_scripts": [
         {
             "matches": [
-               "https://ssb-prod.ec.aucegypt.edu/PROD/bwskfcls.P_GetCrse"
+               //"https://ssb-prod.ec.aucegypt.edu/PROD/bwskfcls.P_GetCrse"
+               "<all_urls>"
             ],
             "js": ["content.js"]
         }
-    ]
+    ],
+    "browser_action": {
+            "default_icon": "aucrn.png"
+    }
+
 }
